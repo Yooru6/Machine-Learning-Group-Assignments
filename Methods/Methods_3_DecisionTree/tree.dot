@@ -12,10 +12,6 @@ edge [fontname=helvetica] ;
 0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
 5 [label="gini = 0.2\nsamples = 192\nvalue = [170, 22]\nclass = legitimate", fillcolor="#e89153"] ;
 4 -> 5 ;
-6 [label="web_traffic <= 0.5\ngini = 0.15\nsamples = 4421\nvalue = [351, 4070]\nclass = phising", fillcolor="#4aa5e7"] ;
+6 [label="gini = 0.15\nsamples = 4421\nvalue = [351, 4070]\nclass = phising", fillcolor="#4aa5e7"] ;
 4 -> 6 ;
-7 [label="gini = 0.28\nsamples = 1459\nvalue = [244, 1215]\nclass = phising", fillcolor="#61b1ea"] ;
-6 -> 7 ;
-8 [label="gini = 0.07\nsamples = 2962\nvalue = [107, 2855]\nclass = phising", fillcolor="#40a1e6"] ;
-6 -> 8 ;
 }
