@@ -1,0 +1,3 @@
+To acces the file on Share drive Ml2020 you should probably use :
+
+"/content/gdrive/Shared drives/Ml2020/ChestXRay2017/chest_xray/train"
